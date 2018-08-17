@@ -24,10 +24,6 @@ rankhospital <- function(state, outcome, num = "best") {
     outcomeDataOK <- outcomeData[!bad, ]
     
     df <- outcomeDataOK[outcomeDataOK$State == state, c(2,result[outcome])]
-    #outcomeSplit <- split(outcomeDataOK,outcomeDataOK$State,drop = TRUE)
-    #outcomeState <- outcomeSplit[[state]]
-    
-    #best <- tapply(outcomeState$Hospital.Name ,outcomeState[result[outcome]], min)
     
     if(num == "best"){
       num <- 1
@@ -38,10 +34,5 @@ rankhospital <- function(state, outcome, num = "best") {
     
     sort <- order(df[, 2], df[, 1])
     df[sort, ][num, 1]
-    #df <- rbind(df, data.frame(id = i, nobs = row))
-    #df <- data.frame(id = numeric(), nobs = numeric())
-    #data.frame(hospital=unlisted_values, state=list_names, row.names=list_names)
-    
-  #}
-  
+      
 }
