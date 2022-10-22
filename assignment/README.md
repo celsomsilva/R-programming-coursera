@@ -1,4 +1,4 @@
-# Programming Assignment 1: Air Pollution
+# Assignment 1: Air Pollution
 
 :white_check_mark: Write three functions that are meant to interact with a dataset(332 worksheets).<br>
 :white_check_mark: Write a function named 'pollutantmean' that calculates the mean of a pollutant (sulfate or nitrate) across a specified list of monitors.<br>
