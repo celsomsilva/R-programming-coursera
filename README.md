@@ -14,9 +14,3 @@ This course teaches to program in R and how to use R for effective data analysis
 - Debugging
 - R Programming
 - Rstudio
-
-## 🏆 Certificate 
-To verify the certificates, click the images to follow the links.
-<p align="middle">
-  <a href="https://coursera.org/share/2eba347958d44acf4812532cb646991c"><img src="https://user-images.githubusercontent.com/8434441/197364110-47402f31-d507-4d2b-ada2-f3d40950b7b8.png" height="430"></a>
-</p>
